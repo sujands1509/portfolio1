@@ -19,8 +19,20 @@
 .dark-2{
   color:#474747;
 }
+.btn-primary{
+  background-color: #FD6E0A;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 16px 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
 nav{
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 200px;
 }
 .nav-title{
   font-weight: 800;
@@ -28,6 +40,7 @@ nav{
 }
 nav ul{
   display: flex;
+  align-items: center;
 }
 nav ul li{
   list-style: none;
