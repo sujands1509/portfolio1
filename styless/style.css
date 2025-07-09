@@ -155,3 +155,31 @@ main section{
 .resume hr{
   margin:20px 0px;
 }
+.resume-download-cv{
+  margin-top: 50px;
+}
+/* footer styling start here */
+.footer{
+  display: flex;
+  gap: 120px;
+  padding: 130px 230px;
+}
+.footer-column{
+  width: 50%;
+}
+footer input[type="text"],footer input[type="email"],footer textarea{
+  height: 44px;
+  width: 90%;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #757575;
+  border: none;
+
+}
+footer textarea{
+  height: 100px;
+}
