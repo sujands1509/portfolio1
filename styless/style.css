@@ -104,3 +104,10 @@ main{
   text-align: center;
   margin-top: 80px;
 }
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+.item-title{
+  font-weight: 600;
+}
