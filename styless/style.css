@@ -40,6 +40,9 @@
   font-size: 18px;
   color: #757575;
  }
+ .text-center{
+  text-align: center;
+ }
 
 
 .header{
@@ -98,6 +101,9 @@ main{
   max-width: 1140px;
   margin: 0 auto;
 }
+main section{
+  margin: 130px 0px;
+}
 .about{
   border-radius: 10px;
   padding: 130px 150px;
@@ -110,4 +116,14 @@ main{
 }
 .item-title{
   font-weight: 600;
+}
+/* skill section */
+.skills-container{
+  display: flex;
+  gap: 24px;
+}
+.skill{
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
